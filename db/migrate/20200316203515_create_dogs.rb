@@ -3,4 +3,7 @@ class CreateDogs < ActiveRecord::Migration[5.2]
     create_table :dogs do |t|
       t.
   end
+
+  def down
+  end
 end
